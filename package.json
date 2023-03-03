@@ -1,0 +1,27 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "project to create team profile generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomking1983/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "team",
+    "profile",
+    "generator"
+  ],
+  "author": "tom king",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomking1983/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/tomking1983/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
