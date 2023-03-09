@@ -191,3 +191,20 @@ const addEmployee = () => {
     })
 
 };
+
+// generate HTML page file using file system
+
+const writeFile = data => {
+    fs.writeFile('.dist/index.html' , data, err => {
+
+        if (err) {
+            console.log(err);
+            return;
+
+        } else {
+            console.log("The team profile has been created, to view please check out index.html")
+        }
+        
+    })
+};
+
