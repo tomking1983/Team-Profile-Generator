@@ -6,6 +6,7 @@ This application was created to generate a team profile based on user input usin
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
+* [Screenshots](#screenshots)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
