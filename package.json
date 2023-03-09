@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "project to create team profile generator",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "hello"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,9 @@
   },
   "homepage": "https://github.com/tomking1983/Team-Profile-Generator#readme",
   "dependencies": {
-    "inquirer": "^9.1.4"
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.5",
+    "jest": "^29.5.0",
+    "path": "^0.12.7"
   }
 }
